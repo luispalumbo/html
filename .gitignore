@@ -396,3 +396,11 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.DS_Store
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/luispalumbo.github.io.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+Activities/resume old/.DS_Store
+Activities/resume/.DS_Store
