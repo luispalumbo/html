@@ -1,0 +1,27 @@
+.experience {
+    font-style: italic;
+}
+
+#social-media {
+    color: blue;
+}
+
+#ul-square {
+    list-style: square;
+}
+
+h1 {
+    color: red;
+}
+
+a:link {
+    color: darkslateblue;
+}
+
+a:visited {
+    color: lightskyblue;
+}
+
+a:hover {
+    background-color: yellow;
+}
