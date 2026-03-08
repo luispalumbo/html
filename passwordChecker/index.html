@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Defender Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Password Defender</h1>
+  <p>Create a password that reaches 100 security points.</p>
+
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="togglePassword()">Show/Hide</button>
+
+  <div id="scoreBox">
+    <p>Security Score: <span id="score">0</span>/100</p>
+    <div id="strengthBar"></div>
+  </div>
+
+  <ul id="feedback"></ul>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
