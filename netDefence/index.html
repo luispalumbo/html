@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CyberShield Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CyberShield Network Defence</h1>
+
+  <div class="dashboard">
+
+    <div class="panel">
+      <h2>Firewall Status</h2>
+      <p id="firewallStatus">ACTIVE</p>
+      <button onclick="toggleFirewall()">Toggle Firewall</button>
+    </div>
+
+    <div class="panel">
+      <h2>Live Traffic</h2>
+      <p>Incoming Requests: <span id="trafficCount">0</span></p>
+      <p>Blocked IPs: <span id="blockedCount">0</span></p>
+    </div>
+
+    <div class="panel">
+      <h2>Threat Alerts</h2>
+      <ul id="alerts"></ul>
+    </div>
+
+    <div class="panel">
+      <h2>Network Logs</h2>
+      <ul id="logs"></ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
