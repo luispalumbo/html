@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #f4f6fa;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+}
+
+#strengthBar {
+  height: 20px;
+  width: 0%;
+  background-color: red;
+  margin: 10px auto;
+  transition: 0.3s;
+}
+
+#scoreBox {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
